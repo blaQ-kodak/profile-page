@@ -1,0 +1,88 @@
+body{
+margin-top:0;
+padding: 0;
+background: url(../sunset.jpg);
+background-size: cover;
+}
+.box{
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+
+}
+.me-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	
+}
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+
+}
+.box h5{
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: url(../photo.jpg);
+	
+	font-family: : Century Gothic;
+}
+
+.title h4{
+	margin-top: 100px;
+	color: #fff;
+
+}
+
+form{
+	margin-top: 50px;
+
+}
+
+.form-control{
+	width: 300px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background-color: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 30px;
+	margin-top: 20px;
+	transition: 0.4s ease;
+}
+
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
